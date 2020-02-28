@@ -1,0 +1,378 @@
+body{
+    margin: 0;
+}
+
+/* Generalization */
+.space{
+    justify-content: space-between;
+}
+.header_size{
+    font-size: 20px;
+}
+.text_transform{
+    text-transform: uppercase;
+}
+.Oswald_medium{
+    font-weight: 500;
+}
+.Oswald_regular{
+    font-weight: 400;
+}
+.Oswald_light{
+    font-weight: 300;
+}
+.OpenSans_light{
+    font-weight: 300;
+}
+.OpenSans_regular{
+    font-weight: 400;
+}
+.Oswald{
+    font-family: 'Oswald', sans-serif;
+}
+.OpenSans{
+    font-family: 'Open Sans', sans-serif;
+}
+.Slider_top{
+    border-top: 15px solid #d5003e;
+}
+.Slider_bottom_middle{
+    border-top: 15px solid #db255a;
+}
+.center{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+.learn_more {
+    padding: 10px 24px;
+    display: inline-block;
+}
+
+.font_size{
+    font-size: 15px;
+}
+.border_rose{
+    border: 2px solid #db255a;
+}
+.border_white{
+    border: 2px solid #ffffff;
+}
+.border_none{
+    border: none;
+}
+.colour_rose{
+    color: #db255a;
+}
+.colour_white{
+    color: #ffffff;
+}
+.colour{
+    color: #d5003e;
+}
+.heading{
+    display: inline-block;
+    border-bottom: 2px solid #d5003e;
+    padding:12px;
+} 
+.header_font_size{
+    font-size: 30px;
+}
+.footer_font_heading{
+    font-size: 25px;
+}
+.footer_font_content{
+    font-size: 15px;
+}
+.font{
+    font-size: 16px;
+}
+/* coding */
+.navbar-light .navbar-nav .nav-link{
+    color: #d5003e;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #d5003e;
+}
+/* Slider */
+.image{
+    max-width: 375px;
+    height: 285px;
+}
+.image_content{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.centered {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 500px;
+    line-height: 1;
+    margin: 0 auto;
+}
+.container_image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.lux_font_size{
+    font-size: 80px;
+}
+.rev_font_size{
+    font-size: 100px;
+}
+.inner_container{
+    text-align: justify;
+    text-align-last: center;
+    max-width: 1000px;
+}
+.learnmore{
+    margin: 42px 0 50px 0;
+}
+.margin_top{
+    margin-top: 52px;
+}
+.learnmore_margin{
+    margin-top: 41px;
+}
+/* media-query */
+@media only screen and (max-width: 1055px) {
+    .lux_font_size{
+        font-size: 40px;
+    }
+    .rev_font_size{
+        font-size: 60px;
+    }
+    .centered{
+        margin-top: 20px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+    .footer_font_content {
+        font-size: 13px;
+    }
+
+}
+@media only screen and (max-width: 840px) {
+    .lux_font_size{
+        font-size: 30px;
+    }
+    .rev_font_size{
+        font-size: 40px;
+    }
+    .centered{
+        margin-top: 20px;
+    }
+}
+.end_start{
+    padding-top: 60px;
+    padding-bottom: 65px;
+}
+
+.footer{
+    background-color: #232323;
+    padding: 62px 0 72px 0;
+}
+.style{
+    list-style-type: none;
+    padding: 0;
+    max-width: 110px;
+}
+.footer_one{
+    max-width: 114px;
+}
+.footer_two{
+    max-width: 381px;
+}
+.footer_three{
+    width: 230px;
+}
+.footer_four{
+    width: 176px;
+}
+.footer a{
+    color:#ffffff;
+}
+.footer_two_img{
+    width: 40px;
+}
+.centered p{
+    margin: 0;
+}
+/* pulse_line */
+.flex{
+    display: flex;
+    width: auto;
+}
+.border_svg{
+   border-top: 1px solid #444444 !important;
+}
+.border_left{
+    width: 345px;
+}
+.border_right{
+    width: 25px;
+}
+.triangle-down{
+    width: 0px;
+    height: 0px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #444444;
+
+}
+.triangle-inner {
+    width: 0; 
+    height: 0; 
+    position: absolute;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid #232323;
+    margin-left: 1px;
+}
+.font_size_footer{
+    font-size: 12px;
+}
+/* icons */
+.circle{
+	border-radius: 50%;
+    margin: 5px;
+    max-width: 29px;
+    height: 29px;
+    color: #232323;
+}
+.social_icon{
+    flex-wrap: wrap;
+    display: flex;
+}	
+.fa-twitter{
+    background: #598dca;
+}
+.fa-facebook{
+    background: #3a589b;
+}
+.fa-linkedin{
+    background: #007ab9;
+}
+.foot_footer{
+    background-color:#000000;
+}
+.display{
+    display: inline;
+}
+/* flip */
+.flip img{
+    width: 100%;
+    display: block;
+}
+.flip-box {
+    background-color: transparent;
+    width: 100%;
+    perspective: 1000px;
+    margin-top: 12px;
+}
+.flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+} 
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+}
+.flip-box-back {
+    position: absolute;
+    width: 100%;
+    backface-visibility: hidden;
+    height: 100%;
+}
+.flip-box-back {
+    background-color: #db255a;
+    color: white;
+    transform: rotateY(180deg);
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.flip_learn{
+    margin-top: 36px;
+}
+.flip_margin{
+    margin: 0;
+}
+.slider_top{
+    margin-top: 75px;
+}
+.flip a:hover{
+   color: #fff;
+   text-decoration: none;
+}
+.center a:hover{
+    text-decoration: none;
+    color: #db255a;
+}
+.centered a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+@media only screen and (max-width: 434px) {
+    .footer_font_heading{
+        font-size: 20px;
+    }
+    .footer_font_content{
+        font-size: 13px;
+    }    
+}
+@media only screen and (max-width: 992px) {
+    .overlay {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+        top: 0;
+    }   
+    .myNav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 15;
+        top: 0;
+        right: 0;
+        background-color: rgba(238, 228, 228, 0.9);
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 100px;
+    }
+    .blockdisp{
+        display: block !important;
+    }  
+    .ul-margin{
+        margin-left: 12px !important ;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .flip img{
+        max-width: 376px;
+        display: block;
+    }
+    .flip-box-inner {
+        max-width: 376px;
+    }
+    .footer_font_content{
+        font-size: 13px;
+    }
+}
